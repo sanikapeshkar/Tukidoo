@@ -1,0 +1,14 @@
+.sidebar{
+   width:100px;
+   height:1000px;
+   background-color: rgb(206, 206, 206);
+   .icons{
+    display: flex;
+    flex-direction: column;
+     img{
+    flex:1;
+    padding:20px;
+   }
+   }
+  
+}

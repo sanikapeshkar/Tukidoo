@@ -1,9 +1,16 @@
 
 import './App.css';
+import Main from './components/Main/main';
+import Sidebar from './components/Sidebar/sidebar';
 
 function App() {
   return (
-    <>tukidoo</>
+    <div className='app'>
+    <Sidebar/>
+    <Main/>
+   
+    
+    </div>
   );
 }
 
