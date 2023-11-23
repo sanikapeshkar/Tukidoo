@@ -4,13 +4,16 @@ import "./sidebar.scss"
 function Sidebar() {
   return (
     <div className='sidebar'>
+      <img src="" alt="logo"></img>
         {SIDE.map((key,i)=>(
             <div className='icons'>
           
-            <img src="./images/logo1.png" alt="img here"  height={50}></img>
+            {key.img}
             </div>
  
         ))}
+
+        <img src="" alt="profile"></img>
     </div>
   )
 }

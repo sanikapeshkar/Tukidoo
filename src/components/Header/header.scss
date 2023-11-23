@@ -1,3 +1,25 @@
-.header{
-    display:flex;
+.header {
+  padding: 30px;
+  width: 100%;
+  display: flex;
+
+  #icon {
+    padding:10px;
+    margin:10px;
+    flex: 1;
+    background-color: rgb(149, 147, 147);
+    border-radius: 30px;
+    
+  }
+  h2 {
+    flex: 1;
+    margin-right:600px;
+  }
+  #icon-2 {
+    flex: 1;
+    padding:20px;
+    margin:10px;
+    border: 2px solid red;
+
+ }
 }

@@ -1,0 +1,12 @@
+.navbar{
+    display: flex;
+    background-color: rgb(203, 202, 200);
+    margin:40px;
+    border-radius: 30px;
+    .icons {
+        flex:1;
+        margin: 10px;
+        padding-inline: 10px;
+      
+    }
+}
