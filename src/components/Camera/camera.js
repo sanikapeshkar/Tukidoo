@@ -10,14 +10,14 @@ function Camera() {
   return (
     <div className="videoo">
       <div className="video">
-        <div className="image">
-          <img src="./images/studeny.jpg" alt="student here"></img>
-          {/* <div id="text">Ridha</div> */}
+        <div className="image1">
+          {/* <img src="./images/studeny.jpg" alt="student here"></img> */}
+          <div id="text1">Ridha</div>
         </div>
 
         <div className="image">
-          <img src="./images/teacher.jpg" alt="student here"></img>
-          {/* <div  id="text">Ms Kaur</div> */}
+          {/* <img src="./images/teacher.jpg" alt="student here"></img> */}
+          <div id="text">Ms Kaur</div>
         </div>
       </div>
       <div className="icons">
@@ -37,7 +37,7 @@ function Camera() {
           <IoIosChatbubbles size={30} style={{ padding: 10 }} />
           <h6>Chat</h6>
         </div>
-        <div className="icon-each">
+        <div className="icon-each" style={{ backgroundColor: "lightgreen" }}>
           <RiShareBoxLine size={30} style={{ padding: 10 }} />
           <h6>Leave</h6>
         </div>

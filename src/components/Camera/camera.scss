@@ -2,22 +2,41 @@
   margin: 15px;
   .video {
     margin-top: 10px;
-    .image {
-      
-      img {
-        width: 200px;
-        height: 180px;
+    margin-left: 40px;
+
+    .image1 {
+      background-image: url("../studeny.jpg");
+      width: 200px;
+      height: 180px;
+      border-radius: 30px;
+      margin-bottom: 50px;
+      #text1 {
+        background-color: rgb(246, 246, 246);
         border-radius: 30px;
-        padding: 10px;
-        margin-left: 35px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        padding: 2px;
+        width: 60%;
       }
-      // #text{
-      //   z-index: 12233;
-      //   background-color: aqua;
-      //   border-radius: 30px;
-      //   margin-top:0;
-      // }
     }
+
+  
+    .image {
+      background-image: url("../teacher.jpg");
+      width: 200px;
+      height: 180px;
+      border-radius: 30px;
+      #text {
+        background-color: rgb(246, 246, 246);
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        margin-bottom: 30px;
+        width: 60%;
+        padding: 2px;
+      }
+    }
+
+   
+
   }
 
   .icons {
@@ -29,9 +48,10 @@
     align-items: center;
     text-align: center;
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 50px;
     .icon-each {
       padding: 5px;
+      box-shadow: 5px 5px 10px rgba(89, 89, 89, 0.1);
       background-color: rgb(233, 233, 233);
       border-radius: 20px;
       height: 50px;
