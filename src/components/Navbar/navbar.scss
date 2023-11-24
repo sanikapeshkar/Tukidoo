@@ -1,12 +1,31 @@
-.navbar{
+.navbar {
+  display: flex;
+  background-color: rgb(236, 235, 235);
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 30px;
+  .icons {
     display: flex;
-    background-color: rgb(203, 202, 200);
-    margin:40px;
+    background-color:rgb(236, 235, 235);
+    flex: 1;
     border-radius: 30px;
-    .icons {
-        flex:1;
-        margin: 10px;
-        padding-inline: 10px;
-      
+    padding: 9px;
+    #icon-ech {
+      margin: 8px;
+      padding: 2px;
     }
+    h3 {
+      margin: 4px;
+      padding: 2px;
+      color: rgb(119, 119, 119);
+      font-weight: 500;
+    }
+  }
+  .icons:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    h3 {
+      color: black;
+    }
+  }
 }

@@ -1,0 +1,48 @@
+.videoo {
+  margin: 15px;
+  .video {
+    margin-top: 10px;
+    .image {
+      
+      img {
+        width: 200px;
+        height: 180px;
+        border-radius: 30px;
+        padding: 10px;
+        margin-left: 35px;
+      }
+      // #text{
+      //   z-index: 12233;
+      //   background-color: aqua;
+      //   border-radius: 30px;
+      //   margin-top:0;
+      // }
+    }
+  }
+
+  .icons {
+    display: grid;
+    width: 200px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 70px;
+    .icon-each {
+      padding: 5px;
+      background-color: rgb(233, 233, 233);
+      border-radius: 20px;
+      height: 50px;
+      width: 50px;
+      h6 {
+        margin: 1px;
+        font-weight: 500;
+      }
+    }
+    .icon-each:hover {
+      background-color: rgb(32, 241, 164);
+    }
+  }
+}

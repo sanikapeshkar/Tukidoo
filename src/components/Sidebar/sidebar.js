@@ -4,16 +4,15 @@ import "./sidebar.scss"
 function Sidebar() {
   return (
     <div className='sidebar'>
-      <img src="" alt="logo"></img>
+      <img src="./images/profile.jpg" alt="logo"></img>
         {SIDE.map((key,i)=>(
             <div className='icons'>
-          
             {key.img}
             </div>
  
         ))}
 
-        <img src="" alt="profile"></img>
+        <img src="./images/profile.jpg" alt="profile" id="profile"></img>
     </div>
   )
 }
