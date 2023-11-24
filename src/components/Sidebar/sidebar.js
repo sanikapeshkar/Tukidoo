@@ -4,7 +4,7 @@ import "./sidebar.scss"
 function Sidebar() {
   return (
     <div className='sidebar'>
-      <img src="./images/profile.jpg" alt="logo"></img>
+      <img src="./images/tukidoo.png" alt="logo"></img>
         {SIDE.map((key,i)=>(
             <div className='icons'>
             {key.img}
